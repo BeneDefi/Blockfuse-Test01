@@ -17,6 +17,8 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col lg:flex-row">
       <div className="flex-1 p-4">
+        <h1 className="text-center py-5 font-semibold text-3xl text-gray-900">My FootBall Pitch</h1>
+        
         <Pitch currentTime={currentTime} />
       </div>
       <div className="w-full lg:w-80 bg-white p-4 shadow-lg">

@@ -1,12 +1,22 @@
-# React + Vite
+Real-Time Football Match Visualization Dashboard
+A dynamic web dashboard for visualizing live football matches with interactive features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features
 
-Currently, two official plugins are available:
+Live Football Pitch Animation: Displays a real-time animated football pitch.
+Real-Time Tracking: Tracks player movements and ball position using live data streams.
+Timeline Navigation: Allows users to replay key moments with a scrubber timeline.
+Mobile Responsiveness: Optimized for mobile devices with touch controls.
+Smooth Animations: Fluid transitions for player movements and events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
 
-## Expanding the ESLint configuration
+Frontend: React, for pitch and animations, Tailwind CSS.
+Deployment: Vercel for frontend(https://vercel.com/benedict-maigidas-projects/blockfuse-test01).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Setup
+
+Clone repo: git clone <repo-url>
+Install dependencies: npm install
+Run locally: npm start
+Deploy: Follow platform-specific deployment steps.
